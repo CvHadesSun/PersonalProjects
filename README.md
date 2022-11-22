@@ -75,7 +75,7 @@ coming soon.
 
 ## 7. Function4D[6] recurrent
 
-![image-20221122150334132](/run/user/1000/doc/d3e927c1/image-20221122150334132.png)
+![image-20221122150334132](assets/pifu/image-20221122150334132.png)
 
 Base on Dynamic fusion and multi-view PIfu project, re-implement the Function4D project: using 3-view kinect azure sensor to capture the real-sence RGBD image , and by non-rigid tack and reconstruction , re-render the de-noised RGBD image for RGBD-PIFu, finally reconstruction high quality digital model, in order to implement this pipeline can reconstruct the avatar in time, using ROS to build whole system: about data capture, non-rigid tack and deformation, implicit 3D reconstruction, and render displayer. To quantify the nerual network weight, using mixed precision to boost the computing efficiency.
 
