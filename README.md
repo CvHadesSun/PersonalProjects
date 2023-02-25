@@ -67,19 +67,19 @@ We recurrent the PIFu [4]  based on the offical source code, we  implement Funct
 
 <img src="assets/pifu/test.gif" style="zoom:50%;" />
 
-## 6. DynamicFusion[5] recurrent
+## 6. Fusion4d 
 
-![image-20221122151654998](assets/pifu/image-20221122151654998.png)
-
-coming soon.
+![image-f4d](assets/f4d/f4d_result.gif)
 
 ## 7. Function4D[6] recurrent
 
-![image-20221122150334132](assets/pifu/image-20221122150334132.png)
+
+![image-result](assets/pifu/output-result.gif)
 
 Base on Dynamic fusion and multi-view PIfu project, re-implement the Function4D project: using 3-view kinect azure sensor to capture the real-sence RGBD image , and by non-rigid tack and reconstruction , re-render the de-noised RGBD image for RGBD-PIFu, finally reconstruction high quality digital model, in order to implement this pipeline can reconstruct the avatar in time, using ROS to build whole system: about data capture, non-rigid tack and deformation, implicit 3D reconstruction, and render displayer. To quantify the nerual network weight, using mixed precision to boost the computing efficiency.
 
 <img src="assets/pifu/system_pifu.png" style="zoom:50%;" />
+
 
 
 # Reference
